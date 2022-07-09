@@ -42,10 +42,10 @@ const linkig = `${instalu}`
 const defaultMenu = {
   before: `
 ╔══「 *${namabot}* 」═══╗
-╠➤👤𝙊𝙬𝙣𝙚𝙧 : ${global.ownername}
-╠➤🤖𝘽𝙊𝙏 : ${global.namabot}
-╠➤⏰𝙐𝙥𝙩𝙞𝙢𝙚 : %uptime
-╠➤📝𝘼𝙡𝙡 𝙁𝙞𝙩𝙪𝙧 : *${totalf}*
+╠➤Name : Asrori Amin
+╠➤Country : Kudus,Jateng, Indonesia
+╠➤Kesukaan : Loli,Roti,Mayaaa
+╠➤Hobby : Menari,Membaca,Belajar
 ╚═══════╦═══════╝
 ╔═══════╩═══════╗
 ║ 〘𝙿𝚁𝙾𝙵𝙸𝙻𝙴 𝙼𝚄〙
@@ -169,7 +169,7 @@ let replace = {
       readmore: readMore
     }
     text = text.replace(new RegExp(`%(${Object.keys(replace).sort((a, b) => b.length - a.length).join`|`})`, 'g'), (_, name) => '' + replace[name])
-let url = `https://telegra.ph/file/01a5b3b1fc41ccaa284f8.png`
+let url = `https://telegra.ph/file/6caa87794b1f20336bdd2.jpg`
 let res = await fetch(url)
 let buffer = await res.buffer()
 let message = await prepareWAMessageMedia({ image: buffer }, { upload: conn.waUploadToServer })
